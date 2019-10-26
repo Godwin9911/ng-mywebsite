@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootswatch/dist/cerulean/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Catamaran:500&display=swap');
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  height: 100%;
+  background: #2575fc;
+  background: -webkit-linear-gradient(to right, #6a11cb,#2FA4E7);
+  background: -o-linear-gradient(to right, #6a11cb,#2FA4E7);
+  background: -moz-linear-gradient(to right, #6a11cb, #2FA4E7);
+  background: linear-gradient(to right, #6a11cb, #2FA4E7);
+}
+.project-link {
+  border: 1px solid#f8f9fa;
+}
+.project-link:hover {
+  border:1px solid #2FA4E7;
+}

@@ -1,0 +1,61 @@
+<div class="border rounded p-3 bg-white mt-2">
+    <h2>Profile</h2>
+    <div class="row p-3">
+        Hi there!, I'm Godwin, a FullStack Developer that uses Nodejs in the Backend. I'm also skilled in the usage of modern javascript frameworks including React and Angular. I design Beautiful UI's with vanilla CSS and bootstrap. I also write Technical Articles for free and for clients on the Internet
+    </div>
+</div>
+
+<div class="border rounded p-3 bg-white mt-2">
+  <h2>Portfolio</h2>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mt-2 text-center" *ngFor="let project of projects">
+      <div class="card">
+        <a href="{{project.link}}" target="_blank" class="project-link">
+          <div>
+            <img class="img img-fluid" [src]="project.image" >
+          </div>
+        </a>
+      </div>
+      <a href="#"><small>code</small></a>
+    </div>
+  </div>
+</div>
+
+<div class="border rounded p-3 mt-2 bg-white">
+  <h2>Blog</h2>
+  <p>Articles i"ve written</p>
+  <div>
+    <div class="">
+      <h3>Medium Blogs</h3>
+      <p>
+        My Articles on <a href="https://medium.com/@agedah99" target="_blank">Medium.com</a>
+      </p>
+      <ul>
+        <li>ALC4.0 Rivers Meetup 1.0 Experience and General thoughts</li>
+        <li>How to fix Redirect Error on Netlify (Angular Version)</li>
+      </ul>
+    </div>
+    <div class="">
+      <h3>Freelance</h3>
+      <p>Articles for clients</p>
+      <ul>
+        <li>
+          SMS Tracking with Google Analytics
+          <a href=" https://www.twilio.com/blog/track-conversion-rate-incoming-sms-via-link-google-analytics" target="_blank">
+            - Read Here!</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="border rounded p-3 bg-white mt-2">
+    <h2>Other Stuffs</h2>
+    <div class="row p-3">
+        <ul>
+            <li>Currently a Learner in the Andela Learning community 4.0</li>
+            <li>Expert IQ in HTML, CSS and javascript as measured on pluralsight</li>
+            <li>Completed over 100 challenges on freecodecamp</li>
+          </ul>
+    </div>
+</div>
