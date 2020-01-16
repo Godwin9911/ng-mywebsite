@@ -14,7 +14,7 @@
     "name": "Rock Paper Champions",
     "description": "A Mutliplayer Rock Paper Scissors game using React and Socket.io ",
     "image": "assets/liveprojects/rockpaperchampions.png",
-    "link": "https://agedahapp.site"
+    "link": "https://rock-paper-champions.herokuapp.com/"
 },
 {
     "name": "NgBlog",
