@@ -29,6 +29,12 @@
     "link": "https://ngmovieapp.herokuapp.com/"
 },
 {
+  "name": "Chat app",
+  "description": "chat with your friends",
+  "image": "assets/liveprojects/ngchatapp.png",
+  "link": "https://ngchatapp.herokuapp.com"
+},
+{
     "name": "Domain lookup",
     "description": "Lookup available domains for your next project on the internet",
     "image": "assets/liveprojects/ngdomainlookup.png",
