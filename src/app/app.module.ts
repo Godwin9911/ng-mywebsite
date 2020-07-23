@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
