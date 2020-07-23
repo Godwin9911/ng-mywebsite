@@ -23,12 +23,6 @@
     "link": "https://rock-paper-champions.herokuapp.com/"
 },
 {
-    "name": "NgBlog",
-    "description": "blog app",
-    "image": "assets/liveprojects/ngblog.png",
-    "link": "https://ngblog.netlify.com/"
-},
-{
     "name": "movie app",
     "description": "checkout your favourite movies",
     "image": "assets/liveprojects/ngmovieapp.png",
