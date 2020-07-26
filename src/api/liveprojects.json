@@ -11,12 +11,6 @@
     "link":"https://alc-rivers-mentors.godwin.now.sh/"
 },
 {
-  "name": "DevelopND",
-  "description": "Report and Track projects in the Niger Delta",
-  "image": "assets/liveprojects/developnd.png",
-  "link": "https://developnd.ng/"
-},
-{
     "name": "Rock Paper Champions",
     "description": "A Mutliplayer Rock Paper Scissors game using React and Socket.io ",
     "image": "assets/liveprojects/rockpaperchampions.png",
